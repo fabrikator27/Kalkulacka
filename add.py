@@ -7,6 +7,13 @@ class Kalkulacka:
 
     def odecti(self, a, b):
         return a - b
+    
+    def vynasob(self, a, b):
+        return a * b
+
+    def divide(self, a, b):
+        return a / b if b != 0 else 0
+
     def answer_message(contact, message):
         """
 
